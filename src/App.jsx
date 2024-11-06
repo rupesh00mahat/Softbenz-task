@@ -1,14 +1,14 @@
 import './App.css'
 import Home from './pages/home'
 import "./App.css";
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import {  createHashRouter, RouterProvider } from 'react-router-dom';
 import Cart from './components/cart.jsx';
 import ProductItems from './components/product-items';
 import EcommerceProvider from "./store/store.jsx";
 import ProductDetail from './components/[product-detail].jsx';
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Home/>,
