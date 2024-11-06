@@ -1,0 +1,171 @@
+.container{
+    max-width: 90%;
+    margin: auto;
+}
+.relative{
+    position: relative;
+}
+
+ul, li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.flex-col{
+    flex-direction: column;
+    display: flex;
+
+}
+.flex-col-reverse{
+    display: flex;
+
+    flex-direction: column-reverse;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.gap-5{
+    gap: 5px;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-20{
+    gap: 20px;
+}
+.gap-30{
+    gap: 30px;
+}
+.rounded-sm{
+    border-radius: 5px;
+}
+.rounded-base{
+    border-radius: 10px;
+}
+.rounded-md{
+    border-radius: 20px;
+}
+
+.font-sm{
+    font-size: 1rem;
+}
+.font-base{
+    font-size: 1.6rem;
+}
+.font-md{
+    font-size: 1.8rem;
+}
+.font-lg{
+    font-size: 2.3rem;
+}
+
+/*  */
+.current-price{
+    margin-bottom: .5rem;
+}
+.previous-price{
+text-decoration: line-through;
+}
+.add-to-cart{
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 300ms ease-in-out;
+}
+.add-to-cart:hover{
+    background-color: black;
+    color: white;
+}
+img{
+    object-fit: cover;
+}
+.cart{
+    position: fixed;
+    top: 0;
+    right: -33%;
+    width: 30%;
+    background-color: white;
+    opacity: 100;
+    height: 100%;
+    padding: 1rem;
+    overflow-y: scroll;
+    transition: all 300ms ease-in;
+}
+.show-cart{
+    right: 0% !important;
+}
+.cart-item{
+    border-bottom: 1px solid gray;
+    padding: 0.5rem 0;
+}
+.cart img{
+    height: 100px;
+    width: 100px;
+}
+.product-detail-content{
+    width: 50%;
+}
+.product-detail-main{
+    margin-top: 2rem;
+}
+
+.product-categories > .category{
+    background-color: rgb(101, 229, 101);
+    padding: 4px 8px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+.decrement, .increment{
+    padding: 0 .8rem;
+    font-size: 3.5rem;
+    background: transparent;
+    cursor: pointer;
+}
+.decrement:active, .increment:active{
+    background-color: #333;
+}
+.ingredients-detail img{
+    height: 500px;
+    max-width: 400px;
+    object-fit: cover;
+}
+.cart-drawer{
+    background: none;
+    border: none;
+}
